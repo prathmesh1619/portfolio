@@ -796,11 +796,23 @@ footer p{
         grid-template-columns: 1fr;
     }
 
-    nav ul{
-        gap: 12px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+   .nav-links{
+    display: none;
+}
+
+.nav-links.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #111827;
+    padding: 20px 0;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
 
 }
 .menu-toggle{
