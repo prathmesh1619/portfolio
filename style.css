@@ -803,5 +803,39 @@ footer p{
     }
 
 }
+.menu-toggle{
+    display: none;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+
+    nav{
+        position: relative;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:#111827;
+        display:none;
+        flex-direction:column;
+        text-align:center;
+        padding:20px 0;
+        gap:20px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+}
 
 
