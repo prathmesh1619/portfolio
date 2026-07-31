@@ -67,10 +67,10 @@ nav a:hover{
 }
 
 .hero-text h1{
-
-    font-size:60px;
-
-    margin:15px 0;
+    font-size: 50px;
+    margin: 15px 0;
+    line-height: 1.1;
+    white-space: nowrap;
 }
 
 .hero-text h2{
