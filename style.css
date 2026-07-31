@@ -66,17 +66,6 @@ nav a:hover{
     padding:120px 10%;
 }
 
-.hero-content{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    gap:60px;
-}
-
 .hero-text h1{
 
     font-size:60px;
@@ -646,6 +635,35 @@ footer p{
 
     color:#94A3B8;
 
+}
+/* ===== Hero Layout ===== */
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img{
+    width: 380px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #3B82F6;
+    box-shadow: 0 0 40px rgba(59,130,246,.5);
 }
 
 
