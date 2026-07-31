@@ -747,57 +747,6 @@ footer p{
     }
 }
 /* ===========================
-   Mobile Responsive
-=========================== */
-
-@media (max-width: 768px) {
-
-    .hero{
-        padding: 100px 20px 60px;
-    }
-
-    .hero-content{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-        gap: 30px;
-    }
-
-    .hero-text{
-        width: 100%;
-    }
-
-    .hero-image img{
-        width: 260px;
-        height: 260px;
-        object-fit: cover;
-    }
-
-    h1{
-        font-size: 2.3rem;
-    }
-
-    .hero-buttons{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
-
-    .btn{
-        width: 220px;
-        text-align: center;
-    }
-
-    .projects-container,
-    .skills-container,
-    .about-content{
-        grid-template-columns: 1fr;
-    }
-}
-
-   /* ===========================
    HAMBURGER MENU
 =========================== */
 
@@ -808,7 +757,7 @@ footer p{
     cursor: pointer;
 }
 
-/* Mobile Responsive */
+/* Mobile */
 @media (max-width:768px){
 
     nav{
@@ -831,11 +780,11 @@ footer p{
         width: 100%;
         background: #111827;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         gap: 20px;
         padding: 20px 0;
         z-index: 999;
+        list-style: none;
     }
 
     .nav-links.active{
