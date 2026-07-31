@@ -823,7 +823,7 @@ footer p{
     font-size: 32px;
     color: white;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 @media (max-width:768px){
