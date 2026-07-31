@@ -796,10 +796,13 @@ footer p{
         grid-template-columns: 1fr;
     }
 
-   .nav-links{
-    display: none;
+   nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
 }
-
 .nav-links.active{
     display: flex;
     flex-direction: column;
@@ -816,10 +819,11 @@ footer p{
 
 }
 .menu-toggle{
-    display: none;
+    display: block;
     font-size: 32px;
     color: white;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 @media (max-width:768px){
