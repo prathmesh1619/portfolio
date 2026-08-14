@@ -875,3 +875,57 @@ footer p{
         max-width: 100%;
     }
 }
+
+/* ==============================
+   CONTACT MOBILE FIX
+============================== */
+
+@media (max-width: 768px) {
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        gap: 25px;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-info {
+        padding: 30px;
+    }
+
+    .contact-form {
+        padding: 30px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+        line-height: 1.6;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .contact-info a {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-form button {
+        width: 100%;
+        max-width: 100%;
+    }
+}
