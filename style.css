@@ -804,3 +804,74 @@ footer p{
 .nav-links a{
     transition: color 0.3s ease;
 }
+
+/* =========================
+   MOBILE OVERFLOW FIX
+========================= */
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .nav-links {
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero,
+    section {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-text,
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        white-space: normal;
+        word-break: break-word;
+    }
+
+    /* Contact section */
+    .contact-content,
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-info,
+    .contact-form {
+        overflow-wrap: anywhere;
+    }
+
+    input,
+    textarea,
+    button {
+        max-width: 100%;
+    }
+}
