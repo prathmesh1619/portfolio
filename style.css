@@ -876,56 +876,41 @@ footer p{
     }
 }
 
-/* ==============================
-   CONTACT MOBILE FIX
-============================== */
+/* ===== CONTACT MOBILE FIX ===== */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-    .contact-content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        max-width: 100%;
-        gap: 25px;
-    }
-
-    .contact-info,
-    .contact-form {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
+    .contact-container {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 90% !important;
+        max-width: 500px !important;
+        margin: 0 auto !important;
+        gap: 25px !important;
     }
 
     .contact-info {
-        padding: 30px;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     .contact-form {
-        padding: 30px;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     .contact-info p {
-        font-size: 16px;
-        line-height: 1.6;
-        overflow-wrap: anywhere;
-        word-break: break-word;
-    }
-
-    .contact-info a {
-        overflow-wrap: anywhere;
-        word-break: break-word;
+        overflow-wrap: anywhere !important;
+        word-break: break-word !important;
     }
 
     .contact-form input,
     .contact-form textarea {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     .contact-form button {
-        width: 100%;
-        max-width: 100%;
+        width: 100% !important;
     }
 }
