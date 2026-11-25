@@ -2,7 +2,6 @@
 
 const words = [
   "Python Full Stack Developer",
-  "UI/UX Designer",
   "Frontend Developer",
   "Backend Developer"
 ];
